@@ -8,3 +8,4 @@ minigameGarden.js
 minigameGrimoire.js
 minigamePantheon.js
 minigameMarket.js
+CookieMonster.user.js
