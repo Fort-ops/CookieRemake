@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name Cookie Monster
 // @namespace Cookie
-// @include http://orteil.dashnet.org/cookieclicker/
-// @include https://orteil.dashnet.org/cookieclicker/
+// @include https://fort-ops.github.io/CookieRemake/
+// @include https://fort-ops.github.io/CookieRemake/
 // @version 1
 // @grant none
 // ==/UserScript==
