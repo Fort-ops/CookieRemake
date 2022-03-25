@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Cookie Monster
-// @include /https://fort-ops.github.io/CookieRemake/
+// @include /https?://orteil.dashnet.org/cookieclicker/
 // ==/UserScript==
 
 const readyCheck = setInterval(() => {
