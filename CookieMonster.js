@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name Cookie Monster
-// @namespace Cookie
-// @include https://fort-ops.github.io/CookieRemake/
-// @include https://fort-ops.github.io/CookieRemake/
-// @version 1
-// @grant none
-// ==/UserScript==
-
 (function() {
     var checkReady = setInterval(function() {
         if (typeof Game.ready !== 'undefined' && Game.ready) {
