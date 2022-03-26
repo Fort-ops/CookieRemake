@@ -1413,6 +1413,14 @@ Game.Launch=function()
 		MODDING API
 		=======================================================================================*/
 		/*
+		const readyCheck = setInterval(() => {
+  const Game = unsafeWindow.Game;
+
+  if (typeof Game !== 'undefined' && typeof Game.ready !== 'undefined' && Game.ready) {
+    Game.LoadMod('https://cookiemonsterteam.github.io/CookieMonster/dist/CookieMonster.js');
+    clearInterval(readyCheck);
+  }
+}, 1000); 
 			to use:
 			-have your mod call Game.registerMod("unique id",mod object)
 			-the "unique id" value is a string the mod will use to index and retrieve its save data; special characters are ignored
