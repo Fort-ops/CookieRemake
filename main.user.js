@@ -248,7 +248,7 @@
                 let divGradient = document.createElement('div')
                 divGradient.className = 'listing listingSection'
                 divGradient.innerText = 'Gradient'
-                divGradient.style = 'font-family: Kavoon; font-style: normal; font-size: 10px;'
+                divGradient.style = 'font-family: Kavoon; font-style: normal; font-size: 8px;'
                 bigDivOptions.append(divGradient)
 
                 // Gradient Listing
