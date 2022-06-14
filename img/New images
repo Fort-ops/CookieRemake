@@ -1,3 +1,0 @@
-wget --convert-links -O index.html http://orteil.dashnet.org/cookieclicker/img/
-grep -v PARENTDIR index.html | grep -o '/img/*[a-zA-ZA-z]*.*"' | sed 's/\/img\///' | sed 's/"//' >list.txt
-wget -N -i list.txt -B http://orteil.dashnet.org/cookieclicker/img/
